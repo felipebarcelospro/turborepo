@@ -12,6 +12,8 @@
     "build:strapi": "turbo run build --filter=strapi",
     "dev": "turbo run dev --parallel",
     "dev:docker": "docker-compose up -d",
+    "start:web": "turbo run start --filter=web",
+    "start:strapi": "turbo run start --filter=strapi",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
