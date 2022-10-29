@@ -14,7 +14,7 @@ TODO:
     [] - Provider;
 [] - apps/web:
 
-[] - apps/serveless-api
+[] - apps/serveless-api:
 
 ## PACKAGES:
 --
