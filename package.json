@@ -8,33 +8,12 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "build:web": "turbo run build --filter=web",
+    "build:strapi": "turbo run build --filter=strapi",
     "dev": "turbo run dev --parallel",
     "dev:docker": "docker-compose up -d",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "turbo": {
-    "pipeline": {
-      "build": {
-        "dependsOn": [
-          "^build"
-        ],
-        "outputs": [
-          "build/**",
-          "dist/**",
-          ".next/**"
-        ]
-      },
-      "lint": {
-        "outputs": []
-      },
-      "dev": {
-        "cache": false
-      },
-      "develop": {
-        "cache": false
-      }
-    }
   },
   "devDependencies": {
     "eslint-config-custom": "*",
