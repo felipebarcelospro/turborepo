@@ -7,11 +7,10 @@
     "packages/*"
   ],
   "scripts": {
+    "dev": "docker-compose up -d && sleep 5 && turbo run dev --parallel",
     "build": "turbo run build",
     "build:web": "turbo run build --filter=web",
     "build:strapi": "turbo run build --filter=strapi",
-    "dev": "turbo run dev --parallel",
-    "dev:docker": "docker-compose up -d",
     "start:web": "turbo run start --filter=web",
     "start:strapi": "turbo run start --filter=strapi",
     "lint": "turbo run lint",

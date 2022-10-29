@@ -1,7 +1,12 @@
+import { Code, Flex, Text } from "ui/chakra-ui";
+import { Card, CardBody } from "ui/saas-ui";
+
 export default function Web() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Flex alignItems="center" justifyContent="center" minH="100vh">
+      <Text>
+        Edit <Code>apps/web/pages/index.tsx</Code> and save to reload.
+      </Text>
+    </Flex>
   );
 }
