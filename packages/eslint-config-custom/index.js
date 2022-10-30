@@ -34,12 +34,12 @@ module.exports = {
     'react/display-name': 'off',
     'import/no-anonymous-default-export': 'off',
     'react-hooks/exhaustive-deps': 'off',
-    'no-useless-constructor': 'off',
-    '@next/next/no-html-link-for-pages': 'off',
-    'react/jsx-key': 'off',
-    semi: 'off'
+    'no-useless-constructor': 'off'
   },
   settings: {
+    next: {
+      rootDir: ['apps/*/', 'packages/*/']
+    },
     'import/resolver': {
       typescript: {}
     },

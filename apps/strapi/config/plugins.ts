@@ -1,12 +1,12 @@
-export default ({ env }) => ({
+export default (): Record<string, any> => ({
   transformer: {
     enabled: true,
     config: {
-      prefix: "/api/",
+      prefix: '/api/',
       responseTransforms: {
         removeAttributesKey: true,
-        removeDataKey: true,
-      },
-    },
-  },
-});
+        removeDataKey: true
+      }
+    }
+  }
+})

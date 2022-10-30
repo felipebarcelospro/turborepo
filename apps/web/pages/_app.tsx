@@ -1,9 +1,17 @@
-import { ThemeProvider } from "ui";
+import { ThemeProvider } from 'ui'
 
-export default function App({ Component, pageProps }: any): React.ReactElement {
+type AppProps = {
+  Component: React.ComponentType
+  pageProps: Record<string, unknown>
+}
+
+export default function App({
+  Component,
+  pageProps
+}: AppProps): React.ReactElement {
   return (
     <ThemeProvider>
       <Component {...pageProps} />
     </ThemeProvider>
-  );
+  )
 }

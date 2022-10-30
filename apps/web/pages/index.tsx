@@ -1,5 +1,5 @@
-import { HomePage } from "../src/pages/home";
+import { HomePage } from '../src/pages/home'
 
 export default function Page(): React.ReactElement {
-  return <HomePage />;
+  return <HomePage />
 }

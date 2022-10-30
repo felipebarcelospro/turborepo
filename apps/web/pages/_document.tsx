@@ -1,5 +1,5 @@
-import NextDocument, { Html, Head, Main, NextScript } from "next/document";
-import { ColorModeScript } from "ui";
+import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
+import { ColorModeScript } from 'ui'
 
 export default class Document extends NextDocument {
   render(): React.ReactElement {
@@ -12,6 +12,6 @@ export default class Document extends NextDocument {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }

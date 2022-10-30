@@ -18,5 +18,5 @@ export default {
    */
   bootstrap(/* { strapi } */): void {
     // Do something before the application starts.
-  },
-};
+  }
+}
