@@ -1,12 +1,12 @@
 export default ({ env }) => ({
- 'transformer': {
+  transformer: {
     enabled: true,
     config: {
-      prefix: '/api/',
+      prefix: "/api/",
       responseTransforms: {
         removeAttributesKey: true,
         removeDataKey: true,
-      }
-    }
+      },
+    },
   },
 });
