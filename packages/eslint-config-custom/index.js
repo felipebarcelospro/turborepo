@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2020: true,
     node: true,
-    jest: true,
+    jest: true
   },
   extends: [
     'plugin:react/recommended',
@@ -14,16 +14,16 @@ module.exports = {
     'prettier/react',
     'next',
     'next/core-web-vitals',
-    "turbo", 
-    "prettier"
+    'turbo',
+    'prettier'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 11,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
@@ -35,15 +35,16 @@ module.exports = {
     'import/no-anonymous-default-export': 'off',
     'react-hooks/exhaustive-deps': 'off',
     'no-useless-constructor': 'off',
-    "@next/next/no-html-link-for-pages": "off",
-    "react/jsx-key": "off",
+    '@next/next/no-html-link-for-pages': 'off',
+    'react/jsx-key': 'off',
+    semi: 'off'
   },
   settings: {
     'import/resolver': {
-      typescript: {},
+      typescript: {}
     },
     react: {
-      version: 'detect',
-    },
-  },
+      version: 'detect'
+    }
+  }
 }

@@ -7,5 +7,5 @@ export function HomePage(): React.ReactElement {
         Edit <Code>apps/web/pages/index.tsx</Code> and save to reload.
       </Text>
     </Flex>
-  )
+  );
 }
