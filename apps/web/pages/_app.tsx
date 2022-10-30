@@ -1,10 +1,9 @@
-import { baseTheme } from "ui";
-import { SaasProvider } from "ui/saas-ui";
+import { ThemeProvider } from "ui";
 
-export default function App({ Component, pageProps }: any) {
+export default function App({ Component, pageProps }: any): React.ReactElement {
   return (
-    <SaasProvider theme={baseTheme}>
+    <ThemeProvider>
       <Component {...pageProps} />
-    </SaasProvider>
+    </ThemeProvider>
   );
 }

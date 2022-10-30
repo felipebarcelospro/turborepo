@@ -1,12 +1,5 @@
-import { Code, Flex, Text } from "ui/chakra-ui";
-import { Card, CardBody } from "ui/saas-ui";
+import { HomePage } from "../src/pages/home";
 
-export default function Web() {
-  return (
-    <Flex alignItems="center" justifyContent="center" minH="100vh">
-      <Text>
-        Edit <Code>apps/web/pages/index.tsx</Code> and save to reload.
-      </Text>
-    </Flex>
-  );
+export default function Page(): React.ReactElement {
+  return <HomePage />;
 }

@@ -14,17 +14,14 @@ TODO:
   [x] - Preview;
   [x] - Provider;
 [] - apps/web:
-[] - apps/serveless-api
 
 ## PACKAGES:
 
 --
 [] - packages/eslint-config-custom:
-[] - Prettier;
+[] - packages/strapi-provider:
 [] - packages/ui:
   [x] - Chakra UI;
   [x] - SaaS UI;
   [x] - Default Theme;
   [] - Shared;
-[] - packages/strapi-api-connector:
-[] - packages/strapi-auth:
